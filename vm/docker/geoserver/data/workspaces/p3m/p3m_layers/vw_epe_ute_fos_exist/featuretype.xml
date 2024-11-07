@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e05</id>
+  <name>vw_epe_ute_fos_exist</name>
+  <nativeName>vw_epe_ute_fos_exist</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Termelétrica a Combustível Fóssil</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_epe_ute_fos_exist</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-63.81834479599996</minx>
+    <maxx>-34.92199934499996</maxx>
+    <miny>-31.552073952999933</miny>
+    <maxy>2.963661692000073</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-63.81834479599997</minx>
+    <maxx>-34.92199934499996</maxx>
+    <miny>-31.552073981801673</miny>
+    <maxy>2.963661691948413</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

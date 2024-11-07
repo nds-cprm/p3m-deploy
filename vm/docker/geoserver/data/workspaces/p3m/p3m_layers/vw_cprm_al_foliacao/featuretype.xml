@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7fd5</id>
+  <name>vw_cprm_al_foliacao</name>
+  <nativeName>vw_cprm_al_foliacao</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Foliação SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_al_foliacao</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-38.19499481699995</minx>
+    <maxx>-35.43677199699994</maxx>
+    <miny>-9.99679999999995</miny>
+    <maxy>-8.845364361999941</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-38.19499481699995</minx>
+    <maxx>-35.43677199699994</maxx>
+    <miny>-9.996800001343654</miny>
+    <maxy>-8.845364362882844</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

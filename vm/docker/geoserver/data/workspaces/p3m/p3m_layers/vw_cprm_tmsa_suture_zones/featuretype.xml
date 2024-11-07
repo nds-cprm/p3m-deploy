@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7e65</id>
+  <name>vw_cprm_tmsa_suture_zones</name>
+  <nativeName>vw_cprm_tmsa_suture_zones</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Suture_Zones SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_tmsa_suture_zones</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-81.09791221008378</minx>
+    <maxx>-35.464764015887056</maxx>
+    <miny>-41.027734756136944</miny>
+    <maxy>11.040752063006547</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-81.09791221008378</minx>
+    <maxx>-35.464764015887056</maxx>
+    <miny>-41.027734795860916</miny>
+    <maxy>11.040752064866735</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

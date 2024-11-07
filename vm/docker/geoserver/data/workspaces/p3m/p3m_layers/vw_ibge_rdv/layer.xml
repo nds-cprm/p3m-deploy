@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_rdv</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e1c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d52</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e1d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:22.327 UTC</dateCreated>
+  <dateModified>2024-08-02 23:24:30.275 UTC</dateModified>
+</layer>

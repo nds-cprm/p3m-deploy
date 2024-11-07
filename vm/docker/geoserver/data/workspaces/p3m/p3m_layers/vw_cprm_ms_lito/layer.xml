@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_ms_lito</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7eec</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66c2</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66c2</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7eed</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:17.422 UTC</dateCreated>
+  <dateModified>2024-05-17 13:07:04.663 UTC</dateModified>
+</layer>

@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7eff</id>
+  <name>vw_cprm_ma_paleo</name>
+  <nativeName>vw_cprm_ma_paleo</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Paleontologia SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_ma_paleo</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-48.47838246999999</minx>
+    <maxx>-42.75</maxx>
+    <miny>-8.70840000028278</miny>
+    <maxy>-1.630000000053729</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-48.47838247</minx>
+    <maxx>-42.74999999999999</maxx>
+    <miny>-8.708400001118118</miny>
+    <maxy>-1.6300000000076662</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

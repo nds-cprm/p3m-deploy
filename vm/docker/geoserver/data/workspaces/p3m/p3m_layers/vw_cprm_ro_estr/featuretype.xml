@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7e93</id>
+  <name>vw_cprm_ro_estr</name>
+  <nativeName>vw_cprm_ro_estr</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Estruturas SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_ro_estr</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-66.08306302638304</minx>
+    <maxx>-59.80970866766254</maxx>
+    <miny>-13.651133856913702</miny>
+    <maxy>-8.058642967036945</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-66.08306302638304</minx>
+    <maxx>-59.80970866766255</maxx>
+    <miny>-13.651133860505283</miny>
+    <maxy>-8.058642967666637</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

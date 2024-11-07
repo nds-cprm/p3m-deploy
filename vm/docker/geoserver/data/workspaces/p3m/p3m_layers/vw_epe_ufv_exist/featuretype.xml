@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e0b</id>
+  <name>vw_epe_ufv_exist</name>
+  <nativeName>vw_epe_ufv_exist</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Solar Fotovoltaica</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_epe_ufv_exist</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-63.80520527999994</minx>
+    <maxx>-34.82388999999995</maxx>
+    <miny>-29.183332999999948</miny>
+    <maxy>-3.792374999999936</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-63.80520527999994</minx>
+    <maxx>-34.82388999999995</maxx>
+    <miny>-29.183333024981543</miny>
+    <maxy>-3.792374999971093</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

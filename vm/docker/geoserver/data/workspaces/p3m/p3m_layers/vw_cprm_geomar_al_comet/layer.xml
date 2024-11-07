@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_geomar_al_comet</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7f46</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f47</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:00.255 UTC</dateCreated>
+  <dateModified>2024-05-20 16:01:58.157 UTC</dateModified>
+</layer>

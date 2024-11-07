@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f0d</id>
+  <name>vw_cprm_ma_estr_geof</name>
+  <nativeName>vw_cprm_ma_estr_geof</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Estrutura Geofísica SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_ma_estr_geof</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-44.74558347669485</minx>
+    <maxx>-42.22056286718657</maxx>
+    <miny>-4.005507972231832</miny>
+    <maxy>-2.46107236403864</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-44.745583476694854</minx>
+    <maxx>-42.22056286718657</maxx>
+    <miny>-4.005507972212998</miny>
+    <maxy>-2.4610723639839054</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

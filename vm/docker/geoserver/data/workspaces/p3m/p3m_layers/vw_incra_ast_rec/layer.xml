@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_incra_ast_rec</name>
+  <id>LayerInfoImpl--4dd2d8e:189b7f2851d:-6256</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-6271</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4dd2d8e:189b7f2851d:-6257</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-03 02:10:10.451 UTC</dateCreated>
+</layer>

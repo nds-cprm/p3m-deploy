@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_al_a_rec_min</name>
+  <id>LayerInfoImpl--f5e3647:18f7da73b3b:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d54</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--f5e3647:18f7da73b3b:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-15 20:02:08.975 UTC</dateCreated>
+  <dateModified>2024-05-15 20:02:53.784 UTC</dateModified>
+</layer>

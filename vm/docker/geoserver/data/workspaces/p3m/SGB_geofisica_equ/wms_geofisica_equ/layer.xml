@@ -1,0 +1,17 @@
+<layer>
+  <name>wms_geofisica_equ</name>
+  <id>LayerInfoImpl--22221ee7:19225494158:4ea5</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--22221ee7:19225494158:4ea4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-25 20:11:13.456 UTC</dateCreated>
+  <dateModified>2024-09-26 17:55:38.420 UTC</dateModified>
+</layer>

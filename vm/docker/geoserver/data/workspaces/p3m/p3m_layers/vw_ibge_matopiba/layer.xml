@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_matopiba</name>
+  <id>LayerInfoImpl-357a6c89:1902645f743:1a2e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c0f7d9f:191147fde58:-1d73</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:1902645f743:1a2d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-17 13:36:45.219 UTC</dateCreated>
+  <dateModified>2024-08-02 19:12:03.275 UTC</dateModified>
+</layer>

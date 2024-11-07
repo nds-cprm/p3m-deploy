@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_min_indic_d</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7fe4</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7fe5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:42:29.301 UTC</dateCreated>
+  <dateModified>2024-05-21 10:45:56.696 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_biomas</name>
+  <id>LayerInfoImpl--4dd2d8e:189b7f2851d:-62ba</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-62d6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4dd2d8e:189b7f2851d:-62bb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-03 01:43:46.464 UTC</dateCreated>
+</layer>

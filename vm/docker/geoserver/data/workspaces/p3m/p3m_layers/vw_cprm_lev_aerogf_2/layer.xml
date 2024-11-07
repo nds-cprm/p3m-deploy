@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_lev_aerogf_2</name>
+  <id>LayerInfoImpl-2449106e:18a5203a054:-5e5a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7ecf0eb:-7b7e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2449106e:18a5203a054:-5e5b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-01 20:02:24.996 UTC</dateCreated>
+</layer>

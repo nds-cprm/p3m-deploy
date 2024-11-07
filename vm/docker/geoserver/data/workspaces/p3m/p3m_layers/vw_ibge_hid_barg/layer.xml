@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_hid_barg</name>
+  <id>LayerInfoImpl--6c0f7d9f:1910e0189ac:-7fe6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-21bd</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c0f7d9f:1910e0189ac:-7fe7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-01 14:38:51.475 UTC</dateCreated>
+  <dateModified>2024-08-15 15:12:26.444 UTC</dateModified>
+</layer>

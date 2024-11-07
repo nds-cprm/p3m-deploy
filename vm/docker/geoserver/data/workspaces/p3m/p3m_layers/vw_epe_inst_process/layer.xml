@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_epe_inst_process</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e24</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-3f20</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e25</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:20.527 UTC</dateCreated>
+  <dateModified>2024-08-15 14:25:17.197 UTC</dateModified>
+</layer>

@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e0f</id>
+  <name>vw_epe_term_petro_deri</name>
+  <nativeName>vw_epe_term_petro_deri</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Terminal de Armazenamento e Distribuição de Petróleo e Derivados</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_epe_term_petro_deri</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-63.80700419999994</minx>
+    <maxx>-34.83799499999998</maxx>
+    <miny>-32.07312332999993</miny>
+    <maxy>-0.060380499999951</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-63.807004199999945</minx>
+    <maxx>-34.83799499999998</maxx>
+    <miny>-32.073123359609376</miny>
+    <maxy>-0.060380499997960024</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

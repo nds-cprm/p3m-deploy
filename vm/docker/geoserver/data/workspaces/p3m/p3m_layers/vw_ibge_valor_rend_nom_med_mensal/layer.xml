@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_valor_rend_nom_med_mensal</name>
+  <id>LayerInfoImpl--4dd2d8e:189b7f2851d:-6286</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-62c9</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4dd2d8e:189b7f2851d:-6287</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-03 01:49:48.189 UTC</dateCreated>
+</layer>

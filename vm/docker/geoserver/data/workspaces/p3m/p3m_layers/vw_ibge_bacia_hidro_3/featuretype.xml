@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e53</id>
+  <name>vw_ibge_bacia_hidro_3</name>
+  <nativeName>vw_ibge_bacia_hidro_3</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Bacias Hidrográficas - Nível 3</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_ibge_bacia_hidro_3</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-73.19369989999996</minx>
+    <maxx>-36.302693199999965</maxx>
+    <miny>-34.038041399999884</miny>
+    <maxy>5.28178320000012</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-73.19369989999996</minx>
+    <maxx>-36.30269319999996</maxx>
+    <miny>-34.038041432500584</miny>
+    <maxy>5.281783200083776</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

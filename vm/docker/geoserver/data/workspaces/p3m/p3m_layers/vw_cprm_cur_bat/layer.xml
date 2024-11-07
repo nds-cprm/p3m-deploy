@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_cur_bat</name>
+  <id>LayerInfoImpl-2449106e:18a5203a054:-5e6e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7e2c910:-1676</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2449106e:18a5203a054:-5e6f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-01 19:59:46.243 UTC</dateCreated>
+</layer>

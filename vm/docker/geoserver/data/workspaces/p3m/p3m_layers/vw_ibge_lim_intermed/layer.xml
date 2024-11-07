@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_lim_intermed</name>
+  <id>LayerInfoImpl--6c0f7d9f:1910e0189ac:-7fde</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c0f7d9f:19113f26618:5c19</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c0f7d9f:1910e0189ac:-7fdf</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-01 14:41:23.608 UTC</dateCreated>
+  <dateModified>2024-08-02 19:08:10.182 UTC</dateModified>
+</layer>

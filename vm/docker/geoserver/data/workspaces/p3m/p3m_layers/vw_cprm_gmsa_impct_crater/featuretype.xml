@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7fad</id>
+  <name>vw_cprm_gmsa_impct_crater</name>
+  <nativeName>vw_cprm_gmsa_impct_crater</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Impact Craters SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_gmsa_impct_crater</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-69.04411110099994</minx>
+    <maxx>-45.23013616399993</maxx>
+    <miny>-32.87861110599994</miny>
+    <maxy>-7.715277761999971</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-69.04411110099994</minx>
+    <maxx>-45.23013616399992</maxx>
+    <miny>-32.87861113682667</miny>
+    <maxy>-7.715277762533922</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

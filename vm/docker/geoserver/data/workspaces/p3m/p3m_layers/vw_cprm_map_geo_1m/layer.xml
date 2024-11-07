@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_map_geo_1m</name>
+  <id>LayerInfoImpl-13685bff:18f95e7b58d:-63d3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66d1</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66d1</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-13685bff:18f95e7b58d:-63d4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-20 12:11:57.725 UTC</dateCreated>
+  <dateModified>2024-08-05 11:20:21.867 UTC</dateModified>
+</layer>

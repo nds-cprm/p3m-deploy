@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_anp_bac_sed</name>
+  <id>LayerInfoImpl--6c0f7d9f:1910e0189ac:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7e2c910:-1679</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c0f7d9f:1910e0189ac:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-01 12:54:45.185 UTC</dateCreated>
+</layer>

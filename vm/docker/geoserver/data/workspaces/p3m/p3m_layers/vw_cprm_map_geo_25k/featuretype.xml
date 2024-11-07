@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7ff3</id>
+  <name>vw_cprm_map_geo_25k</name>
+  <nativeName>vw_cprm_map_geo_25k</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Folhas 1:25.000 (Geology - 25K)</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_map_geo_25k</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-60.24999999999994</minx>
+    <maxx>-43.37499999999994</maxx>
+    <miny>-20.250000000999933</miny>
+    <maxy>-6.624999999999943</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-60.24999999999994</minx>
+    <maxx>-43.37499999999994</maxx>
+    <miny>-20.250000011817967</miny>
+    <maxy>-6.625000000285377</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

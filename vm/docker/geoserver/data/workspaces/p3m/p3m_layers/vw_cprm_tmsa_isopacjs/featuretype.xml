@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f1b</id>
+  <name>vw_cprm_tmsa_isopacjs</name>
+  <nativeName>vw_cprm_tmsa_isopacjs</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Isopachs SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_tmsa_isopacjs</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-83.6913738829833</minx>
+    <maxx>-24.26775249583594</maxx>
+    <miny>-56.312781851876395</miny>
+    <maxy>15.612903555504541</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-83.6913738829833</minx>
+    <maxx>-24.267752495835936</maxx>
+    <miny>-56.312781883999634</miny>
+    <maxy>15.612903560826542</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

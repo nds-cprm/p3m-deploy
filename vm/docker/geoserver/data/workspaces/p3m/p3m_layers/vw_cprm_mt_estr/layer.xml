@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_mt_estr</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7ef6</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d55</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7ef7</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:15.448 UTC</dateCreated>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_geoq_b_d</name>
+  <id>LayerInfoImpl-2449106e:18a5203a054:-5e66</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7ecf0eb:-7b83</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2449106e:18a5203a054:-5e67</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-01 20:01:08.262 UTC</dateCreated>
+</layer>

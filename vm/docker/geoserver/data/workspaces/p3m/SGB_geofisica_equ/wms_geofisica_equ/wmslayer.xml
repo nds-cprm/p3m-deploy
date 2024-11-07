@@ -1,0 +1,68 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--22221ee7:19225494158:4ea4</id>
+  <name>wms_geofisica_equ</name>
+  <nativeName>geofisica_eu</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Equivalente Uranio</title>
+  <description>Imagem geofísica eU.</description>
+  <abstract>Imagem geofísica eU.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS84&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;Web Map Service CRS&quot;,&quot;84&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-66.751485</minx>
+    <maxx>-34.785485</maxx>
+    <miny>-32.572245</miny>
+    <maxy>4.265755</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-66.751485</minx>
+    <maxx>-34.785485</maxx>
+    <miny>-32.572245</miny>
+    <maxy>4.265755</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="OTHER_SRS">CRS:84,EPSG:4326,EPSG:4674</entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--22221ee7:19225494158:4ea3</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <forcedRemoteStyle></forcedRemoteStyle>
+  <preferredFormat>image/png</preferredFormat>
+  <metadataBBoxRespected>false</metadataBBoxRespected>
+  <allAvailableRemoteStyles>
+    <style>
+      <name>default</name>
+      <format>sld</format>
+      <languageVersion>
+        <version>1.0.0</version>
+      </languageVersion>
+      <legend>
+        <width>20</width>
+        <height>20</height>
+        <format>image/png</format>
+        <onlineResource>https://geoportal.sgb.gov.br/image/services/geofisica_eu/ImageServer/WMSServer?request=GetLegendGraphic%26version=1.3.0%26format=image/png%26layer=geofisica_eu</onlineResource>
+      </legend>
+      <metadata>
+        <entry key="isRemote">true</entry>
+      </metadata>
+    </style>
+  </allAvailableRemoteStyles>
+</wmsLayer>

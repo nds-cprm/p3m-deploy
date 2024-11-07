@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--7c6ee08d:190a1e47ab3:72d3</id>
+  <name>tif_grad_total</name>
+  <description>SGB Magnetometria Gradiente Total</description>
+  <type>GeoTIFF</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-1a496adc:189b7ad7362:-8000</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2024-07-11 13:17:08.636 UTC</dateCreated>
+  <dateModified>2024-11-07 10:33:25.79 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:coverages/gt_brasil_1000/GT_BRASIL_1000.tif</url>
+</coverageStore>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_funai_ter_indg</name>
+  <id>LayerInfoImpl--4dd2d8e:189b7f2851d:-62d9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-62e6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4dd2d8e:189b7f2851d:-62da</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-03 01:18:32.512 UTC</dateCreated>
+</layer>

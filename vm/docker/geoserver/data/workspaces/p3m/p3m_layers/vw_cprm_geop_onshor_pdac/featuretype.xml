@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-6ad51140:18f815c8106:-7ffa</id>
+  <name>vw_cprm_geop_onshor_pdac</name>
+  <nativeName>vw_cprm_geop_onshor_pdac</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Airborne Geophysics Onshore - PDAC 2023</title>
+  <keywords>
+    <string>vw_cprm_geop_onshor_pdac</string>
+    <string>features</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-73.99584930180379</minx>
+    <maxx>-34.783646249974424</maxx>
+    <miny>-32.6421660563603</miny>
+    <maxy>5.266349534730442</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-73.99584930180379</minx>
+    <maxx>-34.783646249974424</maxx>
+    <miny>-32.64216608683395</miny>
+    <maxy>5.2663495348123766</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

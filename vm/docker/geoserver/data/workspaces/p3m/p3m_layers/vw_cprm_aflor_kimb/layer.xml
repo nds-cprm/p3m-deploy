@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_aflor_kimb</name>
+  <id>LayerInfoImpl--f5e3647:18f7da73b3b:-7ffe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1ff15c00:18f8658b990:11ce</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-1ff15c00:18f8658b990:11ce</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--f5e3647:18f7da73b3b:-7fff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-15 19:27:33.502 UTC</dateCreated>
+  <dateModified>2024-05-17 11:55:18.546 UTC</dateModified>
+</layer>

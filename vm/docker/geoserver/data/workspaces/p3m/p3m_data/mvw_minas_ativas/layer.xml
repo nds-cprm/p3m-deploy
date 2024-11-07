@@ -1,0 +1,17 @@
+<layer>
+  <name>mvw_minas_ativas</name>
+  <id>LayerInfoImpl-5e1d086e:18f819d931c:-2237</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-6230</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-5e1d086e:18f819d931c:-2238</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 13:37:20.103 UTC</dateCreated>
+  <dateModified>2024-08-30 18:18:30.434 UTC</dateModified>
+</layer>

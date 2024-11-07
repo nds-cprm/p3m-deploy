@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ana_bho_ach_lv3</name>
+  <id>LayerInfoImpl-2449106e:18a5203a054:-6574</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7c1f71b:-327c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2449106e:18a5203a054:-6575</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-01 19:34:18.75 UTC</dateCreated>
+</layer>

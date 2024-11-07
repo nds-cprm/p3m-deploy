@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_geomar_no_diques</name>
+  <id>LayerInfoImpl--6ed6e089:190928c795a:6bc5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1ff15c00:18f8658b990:11d9</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6ed6e089:190928c795a:6bc4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-08 13:34:54.98 UTC</dateCreated>
+  <dateModified>2024-08-02 22:20:40.545 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_tmsa_volcanoes_andes_inset</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7e56</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7e57</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:49.232 UTC</dateCreated>
+</layer>

@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7e9d</id>
+  <name>vw_cprm_rn_estr_rift</name>
+  <nativeName>vw_cprm_rn_estr_rift</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Estrutura Rift Potiguar SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_rn_estr_rift</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-37.83186901799996</minx>
+    <maxx>-37.17555402199997</maxx>
+    <miny>-5.704979787999946</miny>
+    <maxy>-5.515629171999933</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-37.83186901799996</minx>
+    <maxx>-37.17555402199997</maxx>
+    <miny>-5.704979788135808</miny>
+    <maxy>-5.515629172111212</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

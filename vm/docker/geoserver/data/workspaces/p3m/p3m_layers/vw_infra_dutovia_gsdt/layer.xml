@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_infra_dutovia_gsdt</name>
+  <id>LayerInfoImpl--33854555:1910a21f195:51a5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7cc1fc5:-54d3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--33854555:1910a21f195:51a4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-31 19:07:32.231 UTC</dateCreated>
+</layer>

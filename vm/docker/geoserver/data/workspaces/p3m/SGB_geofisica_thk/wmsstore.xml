@@ -1,0 +1,20 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl--22221ee7:1922f69cc70:1729</id>
+  <name>SGB_geofisica_thk</name>
+  <description>Razão Tório Potássio</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-1a496adc:189b7ad7362:-8000</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-09-26 18:12:37.366 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <capabilitiesURL>https://geoportal.sgb.gov.br/image/services/geofisica_thk/ImageServer/WMSServer?request=GetCapabilities&amp;service=WMS</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>

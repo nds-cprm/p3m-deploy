@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f39</id>
+  <name>vw_cprm_geomar_no_c_bat</name>
+  <nativeName>vw_cprm_geomar_no_c_bat</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Curvas Batimétricas</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_geomar_no_c_bat</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-32.48352789209844</minx>
+    <maxx>-32.35159422279503</maxx>
+    <miny>-3.911644412159774</miny>
+    <maxy>-3.799093190598114</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-32.48352789209844</minx>
+    <maxx>-32.35159422279503</maxx>
+    <miny>-3.911644412136306</miny>
+    <maxy>-3.7990931905695575</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

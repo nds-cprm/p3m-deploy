@@ -1,0 +1,25 @@
+<layer>
+  <name>vw_cprm_pe_lito</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7ec8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f95e7b58d:-537f</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f95e7b58d:4898</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-13685bff:18f95e7b58d:-537f</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7ec9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:26.2 UTC</dateCreated>
+  <dateModified>2024-08-02 22:48:00.940 UTC</dateModified>
+</layer>

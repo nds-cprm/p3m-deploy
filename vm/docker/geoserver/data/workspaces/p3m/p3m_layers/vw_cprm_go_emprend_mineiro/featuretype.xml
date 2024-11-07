@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f29</id>
+  <name>vw_cprm_go_emprend_mineiro</name>
+  <nativeName>vw_cprm_go_emprend_mineiro</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Empreendimento Mineiro SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_go_emprend_mineiro</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-53.21738</minx>
+    <maxx>-46.103060000000006</maxx>
+    <miny>-19.187758865974565</miny>
+    <maxy>-12.913210000411533</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-53.217380000000006</minx>
+    <maxx>-46.10306</maxx>
+    <miny>-19.187758875372143</miny>
+    <maxy>-12.913210003448159</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

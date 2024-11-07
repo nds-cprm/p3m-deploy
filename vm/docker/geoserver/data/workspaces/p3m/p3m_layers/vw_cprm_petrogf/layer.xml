@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_petrogf</name>
+  <id>LayerInfoImpl-2449106e:18a5203a054:-5e32</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-6580</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2449106e:18a5203a054:-5e33</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-01 20:09:30.850 UTC</dateCreated>
+  <dateModified>2024-09-30 12:19:00.377 UTC</dateModified>
+</layer>

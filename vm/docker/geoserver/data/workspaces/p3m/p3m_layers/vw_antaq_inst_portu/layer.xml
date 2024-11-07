@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_antaq_inst_portu</name>
+  <id>LayerInfoImpl--6c0f7d9f:1910e0189ac:-7ff8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-6236</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c0f7d9f:1910e0189ac:-7ff9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-01 14:20:27.178 UTC</dateCreated>
+</layer>

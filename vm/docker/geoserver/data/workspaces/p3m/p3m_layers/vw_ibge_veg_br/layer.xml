@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_veg_br</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e26</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c0f7d9f:19114b54827:5614</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e27</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:20.210 UTC</dateCreated>
+  <dateModified>2024-08-02 20:16:50.459 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_rdv_est_dist</name>
+  <id>LayerInfoImpl--33854555:1910a21f195:5551</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-6235</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--33854555:1910a21f195:5550</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-31 19:47:30.397 UTC</dateCreated>
+</layer>

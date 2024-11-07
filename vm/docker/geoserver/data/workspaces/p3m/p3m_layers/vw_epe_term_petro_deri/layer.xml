@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_epe_term_petro_deri</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e0e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-3f1e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e0f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:24.595 UTC</dateCreated>
+  <dateModified>2024-08-15 14:27:44.614 UTC</dateModified>
+</layer>

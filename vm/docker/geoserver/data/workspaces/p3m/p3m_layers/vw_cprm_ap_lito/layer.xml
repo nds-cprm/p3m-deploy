@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_ap_lito</name>
+  <id>LayerInfoImpl-3efd5a02:1927758a19a:-6169</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-3efd5a02:1927758a19a:-6176</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3efd5a02:1927758a19a:-616a</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-10 18:40:31.334 UTC</dateCreated>
+  <dateModified>2024-10-10 18:42:14.665 UTC</dateModified>
+</layer>

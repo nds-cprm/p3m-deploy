@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f9d</id>
+  <name>vw_cprm_gmsa_plates_bounds</name>
+  <nativeName>vw_cprm_gmsa_plates_bounds</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Ocean Plates boundaries SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_gmsa_plates_bounds</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-92.56053904699996</minx>
+    <maxx>-30.686902351999947</maxx>
+    <miny>-57.635245407999946</miny>
+    <maxy>15.612914141000033</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-92.56053904699998</minx>
+    <maxx>-30.68690235199994</maxx>
+    <miny>-57.635245438178345</miny>
+    <maxy>15.612914146322039</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

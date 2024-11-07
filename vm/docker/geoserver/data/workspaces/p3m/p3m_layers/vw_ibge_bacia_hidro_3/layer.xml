@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_bacia_hidro_3</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e52</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d54</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e53</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:00:42.208 UTC</dateCreated>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>wms_geofisica_ternario</name>
+  <id>LayerInfoImpl--22221ee7:1922f69cc70:1728</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--22221ee7:1922f69cc70:1727</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-26 18:11:41.20 UTC</dateCreated>
+</layer>

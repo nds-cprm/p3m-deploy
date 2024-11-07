@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_anp_pocos</name>
+  <id>LayerInfoImpl-2449106e:18a5203a054:-6545</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7e2c910:-167c</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-2449106e:18a5203a054:-6546</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-09-01 19:52:54.280 UTC</dateCreated>
+</layer>

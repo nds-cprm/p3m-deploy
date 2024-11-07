@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_macro_hidro</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e30</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35586235:19151370a4b:-5ae3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e31</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:08.327 UTC</dateCreated>
+  <dateModified>2024-08-14 18:47:23.114 UTC</dateModified>
+</layer>

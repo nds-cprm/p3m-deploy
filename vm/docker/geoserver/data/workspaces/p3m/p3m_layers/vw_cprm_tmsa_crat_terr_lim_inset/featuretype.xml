@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f57</id>
+  <name>vw_cprm_tmsa_crat_terr_lim_inset</name>
+  <nativeName>vw_cprm_tmsa_crat_terr_lim_inset</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Cratron Terranes Limits Inset SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_tmsa_crat_terr_lim_inset</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-63.30210072647068</minx>
+    <maxx>-37.15708451138389</maxx>
+    <miny>-39.03023544416379</miny>
+    <maxy>2.222479602116506</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-63.30210072647068</minx>
+    <maxx>-37.15708451138389</maxx>
+    <miny>-39.030235482422206</miny>
+    <maxy>2.222479602062688</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

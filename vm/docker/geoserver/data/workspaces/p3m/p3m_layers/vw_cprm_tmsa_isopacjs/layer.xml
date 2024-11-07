@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_tmsa_isopacjs</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7f1a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66e1</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66e1</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f1b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:08.994 UTC</dateCreated>
+  <dateModified>2024-05-17 13:09:57.153 UTC</dateModified>
+</layer>

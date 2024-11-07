@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7fbd</id>
+  <name>vw_cprm_gmsa_alkal_vulc</name>
+  <nativeName>vw_cprm_gmsa_alkal_vulc</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Alkaline Vulcanic SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_gmsa_alkal_vulc</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-57.596245686999964</minx>
+    <maxx>-36.318244267999944</maxx>
+    <miny>-25.40719840199995</miny>
+    <maxy>-3.911871227999939</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-57.59624568699997</minx>
+    <maxx>-36.318244267999944</maxx>
+    <miny>-25.407198420712824</miny>
+    <maxy>-3.9118712279764822</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

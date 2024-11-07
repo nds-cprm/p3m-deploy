@@ -1,0 +1,17 @@
+<layer>
+  <name>wms_geofisica_eth</name>
+  <id>LayerInfoImpl--22221ee7:1922f69cc70:171f</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--22221ee7:1922f69cc70:171e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-26 18:07:23.524 UTC</dateCreated>
+  <dateModified>2024-09-26 18:15:27.744 UTC</dateModified>
+</layer>

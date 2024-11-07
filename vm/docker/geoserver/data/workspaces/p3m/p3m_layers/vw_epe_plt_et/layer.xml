@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_epe_plt_et</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5dfe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-1d70</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5dff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:27.301 UTC</dateCreated>
+  <dateModified>2024-08-15 16:00:16.915 UTC</dateModified>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_ap_med_estr</name>
+  <id>LayerInfoImpl-3efd5a02:1927758a19a:-6167</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3efd5a02:1927758a19a:-6168</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-10 18:40:55.906 UTC</dateCreated>
+</layer>

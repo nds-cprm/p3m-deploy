@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_tmsa_crat_terr_lim</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7f58</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66dd</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66dd</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f59</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:42:56.795 UTC</dateCreated>
+  <dateModified>2024-05-17 13:09:53.226 UTC</dateModified>
+</layer>

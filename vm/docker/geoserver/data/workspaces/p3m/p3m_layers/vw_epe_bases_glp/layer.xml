@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_epe_bases_glp</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e48</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-1f4b</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e49</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:00:48.353 UTC</dateCreated>
+  <dateModified>2024-08-15 15:39:45.162 UTC</dateModified>
+</layer>

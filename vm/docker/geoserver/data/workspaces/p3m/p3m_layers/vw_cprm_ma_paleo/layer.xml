@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_ma_paleo</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7efe</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7eff</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:14.55 UTC</dateCreated>
+</layer>

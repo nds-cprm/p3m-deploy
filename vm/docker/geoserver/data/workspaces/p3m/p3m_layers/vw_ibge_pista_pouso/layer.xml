@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_pista_pouso</name>
+  <id>LayerInfoImpl--33854555:1910a21f195:4c60</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7c4641f:-942</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--33854555:1910a21f195:4c5f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-31 18:56:35.805 UTC</dateCreated>
+</layer>

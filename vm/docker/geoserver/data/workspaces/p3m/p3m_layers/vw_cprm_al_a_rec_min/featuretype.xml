@@ -1,0 +1,43 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--f5e3647:18f7da73b3b:-7ffb</id>
+  <name>vw_cprm_al_a_rec_min</name>
+  <nativeName>vw_cprm_al_a_rec_min</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Area de Recursons Minerais</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_al_a_rec_min</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-37.91543874599995</minx>
+    <maxx>-35.361969933999944</maxx>
+    <miny>-10.39624015499993</miny>
+    <maxy>-8.976075949999938</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-37.91543874599995</minx>
+    <maxx>-35.36196993399994</maxx>
+    <miny>-10.396240156529847</miny>
+    <maxy>-8.976075950929637</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

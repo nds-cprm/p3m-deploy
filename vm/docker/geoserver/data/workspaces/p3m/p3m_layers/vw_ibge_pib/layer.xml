@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_pib</name>
+  <id>LayerInfoImpl--4dd2d8e:189b7f2851d:-628e</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-62cb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4dd2d8e:189b7f2851d:-628f</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-03 01:48:45.219 UTC</dateCreated>
+</layer>

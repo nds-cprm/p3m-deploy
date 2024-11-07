@@ -1,0 +1,25 @@
+<layer>
+  <name>vw_cprm_tmsa_tec_units_inset</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7e60</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-37d5948d:18f9cb005fe:2542</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66ea</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl-37d5948d:18f9cb005fe:2542</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7e61</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:46.841 UTC</dateCreated>
+  <dateModified>2024-05-21 19:49:47.30 UTC</dateModified>
+</layer>

@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7fa9</id>
+  <name>vw_cprm_gmsa_kimb_cluster</name>
+  <nativeName>vw_cprm_gmsa_kimb_cluster</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Kimberlite Clusters SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_gmsa_kimb_cluster</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-63.127717271999984</minx>
+    <maxx>-39.12408332199993</maxx>
+    <miny>-30.420738825999933</miny>
+    <maxy>2.490394718000061</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-63.12771727199999</minx>
+    <maxx>-39.124083321999926</maxx>
+    <miny>-30.420738853002604</miny>
+    <maxy>2.490394717945313</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

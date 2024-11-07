@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_crpm_mapa_indc_geologico_est</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7f54</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66ce</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66ce</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f55</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:42:57.606 UTC</dateCreated>
+  <dateModified>2024-05-17 13:07:19.503 UTC</dateModified>
+</layer>

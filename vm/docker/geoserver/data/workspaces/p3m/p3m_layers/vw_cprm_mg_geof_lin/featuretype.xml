@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7ee7</id>
+  <name>vw_cprm_mg_geof_lin</name>
+  <nativeName>vw_cprm_mg_geof_lin</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Geofísica Lineamentos SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_mg_geof_lin</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-49.32786943999997</minx>
+    <maxx>-40.783591272999956</maxx>
+    <miny>-22.440931486999943</miny>
+    <maxy>-14.550382251999963</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-49.32786943999997</minx>
+    <maxx>-40.78359127299994</maxx>
+    <miny>-22.44093150100028</miny>
+    <maxy>-14.55038225633874</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_gmsa_kimb_cluster</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7fa8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-37d5948d:18f9cb005fe:2542</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-37d5948d:18f9cb005fe:2542</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7fa9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:42:40.281 UTC</dateCreated>
+  <dateModified>2024-05-21 19:51:35.613 UTC</dateModified>
+</layer>

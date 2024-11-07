@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7faf</id>
+  <name>vw_cprm_gmsa_h_p_meta_rock</name>
+  <nativeName>vw_cprm_gmsa_h_p_meta_rock</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>High Pressure Metamorphic rocks SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_gmsa_h_p_meta_rock</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-79.93160251999996</minx>
+    <maxx>-63.90986666699996</maxx>
+    <miny>-51.55985213399998</miny>
+    <maxy>12.226397985000062</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-79.93160251999996</minx>
+    <maxx>-63.90986666699996</maxx>
+    <miny>-51.55985217180654</miny>
+    <maxy>12.226397987566958</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

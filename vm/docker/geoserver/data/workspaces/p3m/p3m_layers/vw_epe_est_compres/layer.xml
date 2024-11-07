@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_epe_est_compres</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e42</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e43</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:00:49.493 UTC</dateCreated>
+</layer>

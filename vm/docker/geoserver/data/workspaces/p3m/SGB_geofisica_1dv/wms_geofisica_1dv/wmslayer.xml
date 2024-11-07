@@ -1,0 +1,49 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--22221ee7:1922e955fda:-1d51</id>
+  <name>wms_geofisica_1dv</name>
+  <nativeName>geofisica_1dv</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Primeira Derivada</title>
+  <description>Geofísica primeira derivada vertical.</description>
+  <abstract>Geofísica primeira derivada vertical.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS84&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;Web Map Service CRS&quot;,&quot;84&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-70.276195</minx>
+    <maxx>-30.952195</maxx>
+    <miny>-33.324005</miny>
+    <maxy>5.051995</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-70.276195</minx>
+    <maxx>-30.952195</maxx>
+    <miny>-33.324005</miny>
+    <maxy>5.051995</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="OTHER_SRS">CRS:84,EPSG:4326,EPSG:4674</entry>
+  </metadata>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--22221ee7:1922e955fda:-1d52</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <forcedRemoteStyle></forcedRemoteStyle>
+  <preferredFormat>image/png</preferredFormat>
+  <metadataBBoxRespected>false</metadataBBoxRespected>
+</wmsLayer>

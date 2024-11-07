@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f31</id>
+  <name>vw_cprm_geomar_no_qbr_plat_insu</name>
+  <nativeName>vw_cprm_geomar_no_qbr_plat_insu</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Quebra da Plataforma Insular</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_geomar_no_qbr_plat_insu</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-32.387605884431714</minx>
+    <maxx>-32.351420073326054</maxx>
+    <miny>-3.913776406645642</miny>
+    <maxy>-3.797817988913468</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-32.387605884431714</minx>
+    <maxx>-32.351420073326054</maxx>
+    <miny>-3.9137764066222753</miny>
+    <maxy>-3.7978179888848578</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

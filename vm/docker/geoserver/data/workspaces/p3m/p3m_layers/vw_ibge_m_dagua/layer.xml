@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_m_dagua</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e36</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35586235:1915241737e:-d0e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e37</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:00:52.664 UTC</dateCreated>
+  <dateModified>2024-08-14 19:07:07.902 UTC</dateModified>
+</layer>

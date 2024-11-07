@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_se_geocron</name>
+  <id>LayerInfoImpl--33854555:1910a21f195:555f</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--33854555:1910a21f195:555e</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-31 20:12:50.427 UTC</dateCreated>
+</layer>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_ap_aflor</name>
+  <id>LayerInfoImpl-3efd5a02:1927758a19a:-6174</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3efd5a02:1927758a19a:-6175</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-10 18:37:37.925 UTC</dateCreated>
+</layer>

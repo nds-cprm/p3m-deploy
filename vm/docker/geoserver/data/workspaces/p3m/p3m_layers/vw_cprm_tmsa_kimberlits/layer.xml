@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_tmsa_kimberlits</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7f18</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66e2</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f19</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:09.300 UTC</dateCreated>
+  <dateModified>2024-05-20 19:16:24.410 UTC</dateModified>
+</layer>

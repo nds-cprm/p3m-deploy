@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_anp_pre_sal</name>
+  <id>LayerInfoImpl--6c0f7d9f:19114c3653d:24d7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13b73123:191483af30b:-1730</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c0f7d9f:19114c3653d:24d6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-02 21:46:46.4 UTC</dateCreated>
+  <dateModified>2024-08-12 20:20:52.767 UTC</dateModified>
+</layer>

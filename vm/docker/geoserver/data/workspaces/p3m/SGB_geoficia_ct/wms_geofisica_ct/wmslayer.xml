@@ -1,0 +1,49 @@
+<wmsLayer>
+  <id>WMSLayerInfoImpl--22221ee7:1922f69cc70:171b</id>
+  <name>wms_geofisica_ct</name>
+  <nativeName>geofisica_ct</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Contagem Total</title>
+  <description>Imagem geofísica CT.</description>
+  <abstract>Imagem geofísica CT.</abstract>
+  <nativeCRS>GEOGCS[&quot;WGS84&quot;, 
+  DATUM[&quot;WGS84&quot;, 
+    SPHEROID[&quot;WGS84&quot;, 6378137.0, 298.257223563]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;Web Map Service CRS&quot;,&quot;84&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>-69.531285</minx>
+    <maxx>-30.351285</maxx>
+    <miny>-34.818225</miny>
+    <maxy>5.285775</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-69.531285</minx>
+    <maxx>-30.351285</maxx>
+    <miny>-34.818225</miny>
+    <maxy>5.285775</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="OTHER_SRS">CRS:84,EPSG:4326,EPSG:4674</entry>
+  </metadata>
+  <store class="wmsStore">
+    <id>WMSStoreInfoImpl--22221ee7:1922f69cc70:171a</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <forcedRemoteStyle></forcedRemoteStyle>
+  <preferredFormat>image/png</preferredFormat>
+  <metadataBBoxRespected>false</metadataBBoxRespected>
+</wmsLayer>

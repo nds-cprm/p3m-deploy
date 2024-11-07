@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_cprm_pdac_rec_min_2024</name>
+  <id>LayerInfoImpl-662a2c2f:18f9c34f109:-3b80</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66d7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-662a2c2f:18f9c34f109:-3b81</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-21 18:24:59.637 UTC</dateCreated>
+  <dateModified>2024-09-05 16:23:00.122 UTC</dateModified>
+</layer>

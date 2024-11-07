@@ -1,0 +1,16 @@
+<layer>
+  <name>wcs_gravimetria_arlivre</name>
+  <id>LayerInfoImpl-4c3a9eec:192443b0e53:-7f9b</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl-4c3a9eec:192443b0e53:-7f9c</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-30 18:46:46.562 UTC</dateCreated>
+</layer>

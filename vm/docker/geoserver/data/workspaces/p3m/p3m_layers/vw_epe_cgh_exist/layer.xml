@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_epe_cgh_exist</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e46</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-4309</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e47</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:00:48.811 UTC</dateCreated>
+  <dateModified>2024-08-15 14:19:29.553 UTC</dateModified>
+</layer>

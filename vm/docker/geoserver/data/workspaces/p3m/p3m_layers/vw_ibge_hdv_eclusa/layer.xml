@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_hdv_eclusa</name>
+  <id>LayerInfoImpl--6c0f7d9f:1910e0189ac:-7ff2</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-21c1</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--6c0f7d9f:1910e0189ac:-7ff3</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-01 14:33:35.549 UTC</dateCreated>
+  <dateModified>2024-08-15 15:15:57.259 UTC</dateModified>
+</layer>

@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_semiarido</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e2a</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6c0f7d9f:191147fde58:792e</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e2b</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:11.464 UTC</dateCreated>
+  <dateModified>2024-08-02 19:21:58.859 UTC</dateModified>
+</layer>

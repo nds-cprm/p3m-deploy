@@ -1,0 +1,16 @@
+<layer>
+  <name>wms_geofisica_anomalia_bouguer</name>
+  <id>LayerInfoImpl--24a3a3fe:192445bae45:-7fff</id>
+  <type>WMS</type>
+  <defaultStyle>
+    <name></name>
+  </defaultStyle>
+  <resource class="wmsLayer">
+    <id>WMSLayerInfoImpl--24a3a3fe:192445bae45:-8000</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-09-30 19:15:12.990 UTC</dateCreated>
+</layer>

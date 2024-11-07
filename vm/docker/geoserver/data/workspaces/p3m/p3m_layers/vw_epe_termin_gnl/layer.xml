@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_epe_termin_gnl</name>
+  <id>LayerInfoImpl-357a6c89:190181d3427:-5e0c</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-74da2a05:1915621908a:-1f4d</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-357a6c89:190181d3427:-5e0d</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-06-14 21:01:24.923 UTC</dateCreated>
+  <dateModified>2024-08-15 15:37:31.417 UTC</dateModified>
+</layer>

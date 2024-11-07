@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_ibge_complex_aero</name>
+  <id>LayerInfoImpl--33854555:1910a21f195:5135</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--35586235:1914d1dfd0e:-27db</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--33854555:1910a21f195:5134</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-07-31 19:01:02.633 UTC</dateCreated>
+  <dateModified>2024-08-13 20:57:29.430 UTC</dateModified>
+</layer>

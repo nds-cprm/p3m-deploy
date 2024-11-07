@@ -1,0 +1,17 @@
+<layer>
+  <name>vw_iphan_sitio_arq</name>
+  <id>LayerInfoImpl-3efd5a02:1926d7ea99d:-7963</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-3efd5a02:1926d7ea99d:-7964</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-10-08 21:27:32.220 UTC</dateCreated>
+  <dateModified>2024-10-09 18:23:36.444 UTC</dateModified>
+</layer>

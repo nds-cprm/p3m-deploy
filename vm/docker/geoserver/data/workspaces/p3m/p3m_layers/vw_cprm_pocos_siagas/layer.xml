@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_cprm_pocos_siagas</name>
+  <id>LayerInfoImpl-74da2a05:1915621908a:-8ff</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--6067735f:18f587541d5:-3d56</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-74da2a05:1915621908a:-900</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-08-19 13:42:43.131 UTC</dateCreated>
+</layer>

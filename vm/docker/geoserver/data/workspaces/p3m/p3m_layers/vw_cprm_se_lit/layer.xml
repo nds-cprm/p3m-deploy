@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_se_lit</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7e72</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66cb</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66cb</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7e73</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:43:42.590 UTC</dateCreated>
+  <dateModified>2024-05-20 15:07:34.887 UTC</dateModified>
+</layer>

@@ -1,0 +1,21 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl--22221ee7:1922e955fda:-1d52</id>
+  <name>SGB_geofisica_1dv</name>
+  <description>Gamaespectometria 1 derivada</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-1a496adc:189b7ad7362:-8000</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-09-26 14:49:51.188 UTC</dateCreated>
+  <dateModified>2024-09-26 18:00:36.477 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <capabilitiesURL>https://geoportal.sgb.gov.br/image/services/geofisica_1dv/ImageServer/WMSServer?request=GetCapabilities&amp;service=WMS</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>

@@ -1,0 +1,16 @@
+<layer>
+  <name>vw_ibge_aurb_mais300hab</name>
+  <id>LayerInfoImpl--4dd2d8e:189b7f2851d:-62be</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--4dd2d8e:189b7f2851d:-62d7</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4dd2d8e:189b7f2851d:-62bf</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2023-08-03 01:43:06.494 UTC</dateCreated>
+</layer>

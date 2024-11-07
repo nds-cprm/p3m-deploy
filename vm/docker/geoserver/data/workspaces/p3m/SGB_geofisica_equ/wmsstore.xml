@@ -1,0 +1,21 @@
+<wmsStore>
+  <id>WMSStoreInfoImpl--22221ee7:19225494158:4ea3</id>
+  <name>SGB_geofisica_equ</name>
+  <description>Equivalente Uranio</description>
+  <type>WMS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-1a496adc:189b7ad7362:-8000</id>
+  </workspace>
+  <metadata>
+    <entry key="useConnectionPooling">true</entry>
+  </metadata>
+  <__default>false</__default>
+  <dateCreated>2024-09-25 20:10:36.438 UTC</dateCreated>
+  <dateModified>2024-09-26 18:00:18.609 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <capabilitiesURL>https://geoportal.sgb.gov.br/image/services/geofisica_eu/ImageServer/WMSServer?request=GetCapabilities&amp;service=WMS</capabilitiesURL>
+  <maxConnections>6</maxConnections>
+  <readTimeout>60</readTimeout>
+  <connectTimeout>30</connectTimeout>
+</wmsStore>

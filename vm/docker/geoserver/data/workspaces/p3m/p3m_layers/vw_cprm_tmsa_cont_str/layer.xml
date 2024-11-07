@@ -1,0 +1,22 @@
+<layer>
+  <name>vw_cprm_tmsa_cont_str</name>
+  <id>LayerInfoImpl--5858a16e:18f82cf132b:-7f66</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-13685bff:18f867a7c62:66dc</id>
+  </defaultStyle>
+  <styles class="linked-hash-set">
+    <style>
+      <id>StyleInfoImpl-13685bff:18f867a7c62:66dc</id>
+    </style>
+  </styles>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7f67</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2024-05-16 19:42:53.758 UTC</dateCreated>
+  <dateModified>2024-05-17 13:09:52.245 UTC</dateModified>
+</layer>

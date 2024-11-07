@@ -1,0 +1,41 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--5858a16e:18f82cf132b:-7edd</id>
+  <name>vw_cprm_tmsa_oc_str_inset</name>
+  <nativeName>vw_cprm_tmsa_oc_str_inset</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-1a496adc:189b7ad7362:-7fff</id>
+  </namespace>
+  <title>Ocean Struct Inset SIG</title>
+  <keywords>
+    <string>features</string>
+    <string>vw_cprm_tmsa_oc_str_inset</string>
+  </keywords>
+  <srs>EPSG:4674</srs>
+  <nativeBoundingBox>
+    <minx>-85.28431123707006</minx>
+    <maxx>-45.84295964295804</maxx>
+    <miny>-57.90816409469169</miny>
+    <maxy>7.959108757440013</maxy>
+    <crs>EPSG:4674</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>-85.28431123707006</minx>
+    <maxx>-45.842959642958036</maxx>
+    <miny>-57.908164124454245</miny>
+    <maxy>7.959108758041051</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-1a496adc:189b7ad7362:-7ffe</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>
