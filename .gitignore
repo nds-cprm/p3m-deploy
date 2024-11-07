@@ -1,0 +1,28 @@
+# backups
+*.bak
+backup*.zip
+vm/docker/geoserver/data/backup
+# GWC
+vm/docker/geoserver/data/gwc/*
+!vm/docker/geoserver/data/gwc/geowebcache-diskquota.xml
+!vm/docker/geoserver/data/gwc/geowebcache.xml
+!vm/docker/geoserver/data/gwc/metadata.properties
+# cluster
+vm/docker/geoserver/data/cluster/*
+!vm/docker/geoserver/data/cluster/cluster.properties
+# legendsamples
+vm/docker/geoserver/data/legendsamples
+# logs
+vm/docker/geoserver/data/logs/*.log
+# coverages
+vm/docker/geoserver/data/coverages/*
+!vm/docker/geoserver/data/coverages/readme.txt
+# datasets
+vm/docker/geoserver/data/data/*
+!vm/docker/geoserver/data/data/readme.txt
+# filelocks
+vm/docker/geoserver/data/filelocks
+# temps
+vm/docker/geoserver/data/temp
+# uploads
+vm/docker/geoserver/data/uploads
