@@ -1,0 +1,99 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ include "p3m.fullname" . }}-backend
+  labels:
+    {{- include "p3m.labels" . | nindent 4 }}
+    app.kubernetes.io/component: backend
+spec:
+  {{- if not .Values.backend.autoscaling.enabled }}
+  replicas: {{ .Values.backend.replicaCount }}
+  {{- end }}
+  selector:
+    matchLabels:
+      {{- include "p3m.selectorLabels" . | nindent 6 }}
+      app.kubernetes.io/component: backend
+  template:
+    metadata:
+      {{- with .Values.backend.podAnnotations }}
+      annotations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      labels:
+        {{- include "p3m.selectorLabels" . | nindent 8 }}
+        app.kubernetes.io/component: backend
+    spec:
+      {{- with .Values.backend.imagePullSecrets }}
+      imagePullSecrets:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      serviceAccountName: {{ include "p3m.serviceAccountName" . }}
+      securityContext:
+        {{- toYaml .Values.backend.podSecurityContext | nindent 8 }}
+      volumes:
+        - name: p3m-statics
+          persistentVolumeClaim:
+            claimName: {{ include "p3m.fullname" . }}-statics
+        - name: p3m-secrets
+          secret:
+            secretName: {{ include "p3m.fullname" . }}-secret
+        - name: uwsgi-conf
+          configMap:
+            name: {{ include "p3m.fullname" . }}-uwsgi
+      containers:
+        - name: {{ .Chart.Name }}-backend
+          securityContext:
+            {{- toYaml .Values.backend.securityContext | nindent 12 }}
+          image: "{{ .Values.backend.image.repository }}:{{ .Values.backend.image.tag | default .Chart.AppVersion }}"
+          imagePullPolicy: {{ .Values.backend.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 8000
+              protocol: TCP
+          args: ["uwsgi", "--ini", "/var/run/p3m/uwsgi.ini"]
+          env:
+            {{- $fullName := include "p3m.fullname" . -}}
+            {{- $host := first .Values.ingress.hosts }}
+            {{- with .Values.backend.config }}            
+            - name: DEBUG
+              value: {{ .debug | toString | upper | quote }}
+            - name: DEFAULT_API_URL
+              value: {{ .apiUrl }}
+            - name: ALLOWED_HOSTS
+              value: {{ $host.host }},{{ $fullName }}-frontend-svc,{{ $fullName }}-backend-svc,{{ join "," .allowedHosts  }}
+            - name: CORS_ORIGIN_WHITELIST
+              value: {{ join "," .corsOriginWhitelist  }}
+            {{- end }}
+            - name: SECRET_KEY_FILE
+              value: /run/secrets/p3m/p3m-secret-key
+            - name: DATABASE_URL_FILE
+              value: /run/secrets/p3m/p3m-database-url
+          volumeMounts:
+            - name: p3m-statics
+              mountPath: /usr/src/app/staticfiles
+            - name: p3m-secrets
+              mountPath: /run/secrets/p3m
+              readOnly: true
+            - name: uwsgi-conf
+              mountPath: /var/run/p3m
+          livenessProbe:
+            tcpSocket:
+              port: http
+          {{/*readinessProbe:
+            httpGet:
+              path: /
+              port: http*/}}
+          resources:
+            {{- toYaml .Values.backend.resources | nindent 12 }}
+      {{- with .Values.backend.nodeSelector }}
+      nodeSelector:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.backend.affinity }}
+      affinity:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
+      {{- with .Values.backend.tolerations }}
+      tolerations:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}

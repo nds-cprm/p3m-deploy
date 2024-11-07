@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{ include "p3m.fullname" . }}-statics
+  labels:
+    {{- include "p3m.labels" . | nindent 4 }}
+    app.kubernetes.io/component: storage
+spec:
+  accessModes:
+    - ReadWriteMany
+  volumeMode: Filesystem
+  {{- with .Values.pvc.storage }}
+  {{- if .className }}
+  storageClassName: {{ .className }}
+  {{- end }}
+  resources:
+    requests:
+      storage: {{ .size }}
+  {{- end }}
