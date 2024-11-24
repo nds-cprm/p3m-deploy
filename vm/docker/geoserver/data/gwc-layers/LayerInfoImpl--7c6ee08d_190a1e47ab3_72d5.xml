@@ -53,7 +53,7 @@
       <key>STYLES</key>
       <defaultValue></defaultValue>
       <availableStyles class="sorted-set"/>
-      <defaultStyle>p3m:teste_gradiente_total</defaultStyle>
+      <defaultStyle>raster</defaultStyle>
     </styleParameterFilter>
   </parameterFilters>
   <gutter>0</gutter>
