@@ -31,9 +31,13 @@ serviceAccount:
   name: ""
 
 pvc:
-  storage:
-    className: 'nutanix-dynfiles-delete'
-    size: 1Gi
+  keep: true
+  # volumeName: 
+  storage: 
+    className: ""
+    size: 5Gi
+    accessModes:
+      - ReadWriteMany
 
 frontend:
   replicaCount: 1

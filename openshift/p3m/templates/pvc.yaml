@@ -5,15 +5,24 @@ metadata:
   labels:
     {{- include "p3m.labels" . | nindent 4 }}
     app.kubernetes.io/component: storage
+{{- with .Values.pvc }}
+  {{- if .keep }}
+  annotations:
+    helm.sh/resource-policy: keep
+  {{- end }}
 spec:
-  accessModes:
-    - ReadWriteMany
   volumeMode: Filesystem
-  {{- with .Values.pvc.storage }}
+  {{- if .volumeName }}
+  volumeName: {{ .volumeName | quote }}
+  {{- end }}
+  accessModes:
+    {{- range .storage.accessModes }}
+    - {{ . }}
+    {{- end }}
   {{- if .className }}
-  storageClassName: {{ .className }}
+  storageClassName: {{ .storage.className | quote }}
   {{- end }}
   resources:
     requests:
-      storage: {{ .size }}
-  {{- end }}
+      storage: {{ .storage.size }}
+{{- end }}
