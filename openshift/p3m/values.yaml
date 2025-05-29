@@ -12,7 +12,7 @@ ingress:
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"
   hosts:
-    - host: &defaultHost sgb-p3m-homolog.apps.ocp.sgb.local
+    - host: &defaultHost p3m.sgb-p3m-homolog.apps.ocp.sgb.local
       paths:
         - path: /
           pathType: ImplementationSpecific
@@ -44,7 +44,7 @@ frontend:
 
   image:
     repository: docker.io/plataformamineral/p3m_frontend
-    pullPolicy: Always
+    pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
 
@@ -95,15 +95,15 @@ backend:
       - *defaultHost
     corsOriginWhitelist: 
       - https://opendata.sgb.gov.br
-      - http://sgb-p3m-homolog.apps.ocp.sgb.local
-    databaseURL: postgis://p3m:V2ZL7LI4gRV7DuHUAB@lrnpdbmsh05.sgb.local:5432/p3m
+      - http://p3m.sgb-p3m-homolog.apps.ocp.sgb.local
+    databaseURL: postgis://p3m:p3m@p3m-postgresql.sgb-p3m-homolog.svc.cluster.local:5432/p3m
     secretKey: 't)ka1668p*5@ftxgkpcf9l11j3%$mar%fc3@ah7_2*0=afn05@'
 
   replicaCount: 1
 
   image:
     repository: docker.io/plataformamineral/p3m_backend
-    pullPolicy: Always
+    pullPolicy: IfNotPresent
     # Overrides the image tag whose default is the chart appVersion.
     tag: ""
 
@@ -144,4 +144,32 @@ backend:
   affinity: {}
 
 geoserver:
-  enabled: false
+  enabled: true
+  config:
+    cors:
+      allowedOrigins:
+        - 'http://p3m.sgb-p3m-homolog.apps.ocp.sgb.local'
+    csrf:
+      disabled: false
+      whitelist:
+        - *defaultHost
+    proxyBaseURL: 'http://p3m.sgb-p3m-homolog.apps.ocp.sgb.local/geoserver'
+  image:
+    tag: 2.24.4-java11
+  imagePullPolicy: IfNotPresent
+
+postgresql: 
+  enabled: true
+  image:
+    tag: 14.11.0
+  auth:
+    username: "p3m"
+    password: "p3m"
+    database: "p3m"
+    postgresPassword: "postgres"
+  # primary:
+  #   extendedConfiguration: |-
+  #     log_statement = all
+  #     log_directory = 'logs'                  # directory where log files are written,
+  #     log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log'        # log file name pattern,
+  #     log_file_mode = 0660 
