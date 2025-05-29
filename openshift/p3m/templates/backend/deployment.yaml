@@ -79,10 +79,11 @@ spec:
           livenessProbe:
             tcpSocket:
               port: http
-          {{/*readinessProbe:
-            httpGet:
-              path: /
-              port: http*/}}
+            initialDelaySeconds: 60
+            periodSeconds: 60
+            timeoutSeconds: 5
+            successThreshold: 1
+            failureThreshold: 5
           resources:
             {{- toYaml .Values.backend.resources | nindent 12 }}
       {{- with .Values.backend.nodeSelector }}
