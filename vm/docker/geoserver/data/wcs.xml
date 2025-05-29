@@ -33,6 +33,12 @@
   <onlineResource>http://geoserver.org</onlineResource>
   <schemaBaseURL>http://schemas.opengis.net</schemaBaseURL>
   <verbose>false</verbose>
+  <srs>
+    <string>4326</string>
+    <string>3857</string>
+    <string>900913</string>
+    <string>4674</string>
+  </srs>
   <gmlPrefixing>false</gmlPrefixing>
   <latLon>false</latLon>
   <maxInputMemory>0</maxInputMemory>
