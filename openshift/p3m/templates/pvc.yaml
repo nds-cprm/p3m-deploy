@@ -19,7 +19,7 @@ spec:
     {{- range .storage.accessModes }}
     - {{ . }}
     {{- end }}
-  {{- if .className }}
+  {{- if .storage.className }}
   storageClassName: {{ .storage.className | quote }}
   {{- end }}
   resources:
