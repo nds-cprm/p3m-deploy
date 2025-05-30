@@ -26,3 +26,8 @@ vm/docker/geoserver/data/filelocks
 vm/docker/geoserver/data/temp
 # uploads
 vm/docker/geoserver/data/uploads
+# Helm Chart
+openshift/p3m/charts/
+openshift/p3m/draft/
+openshift/p3m/values.*.yaml
+openshift/p3m/Chart.lock
