@@ -143,6 +143,12 @@ backend:
 
   affinity: {}
 
+# nginx:
+#   overrides: 
+#     default: 
+#       name: p3m-nginx-conf
+#       enabled: true
+
 geoserver:
   enabled: true
   config:
