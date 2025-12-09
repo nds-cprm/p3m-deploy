@@ -31,3 +31,4 @@ openshift/p3m/charts/
 openshift/p3m/draft/
 openshift/p3m/values.*.yaml
 openshift/p3m/Chart.lock
+openshift/p3m/manifest.yaml
