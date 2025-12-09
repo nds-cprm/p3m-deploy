@@ -6,7 +6,7 @@ metadata:
     {{- include "p3m.labels" . | nindent 4 }}
     app.kubernetes.io/component: frontend
 spec:
-  type: ClusterIP
+  type: {{ .Values.frontend.service.type }}
   ports:
     - port: {{ .Values.frontend.service.port }}
       targetPort: http

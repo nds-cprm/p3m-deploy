@@ -5,15 +5,21 @@ metadata:
 data:
   uwsgi.ini: |-
     [uwsgi]
-    socket = 0.0.0.0:8000
+    socket = 0.0.0.0:{{ .Values.backend.service.wsgi.port }}
     pidfile = /tmp/p3m.pid
+    
+    enable-threads = true 
+    ; processes = {{ .Values.config.uwsgi.numProcesses | default 1 }}
+    ; threads = {{ .Values.config.uwsgi.numThreads | default 4 }} 
 
     chdir = /usr/src/app/
     module = p3m_project.wsgi:application
 
+    stats = 0.0.0.0:{{ .Values.backend.service.stats.port }}
+    stats-http = true
+
     strict = true
     master = true
-    enable-threads = true
     vacuum = true                        ; Delete sockets during shutdown
     single-interpreter = true
     die-on-term = true                   ; Shutdown when receiving SIGTERM (default is respawn)
@@ -34,6 +40,6 @@ data:
     cheaper-busyness-min = 20            ; Below this threshold, kill workers (if stable for multiplier cycles)
     cheaper-busyness-max = 70            ; Above this threshold, spawn new workers
     cheaper-busyness-backlog-alert = 16  ; Spawn emergency workers if more than this many requests are waiting in the queue    
-    cheaper-busyness-backlog-step = 2    ; How many emergency workers to create if there are too many reque
+    cheaper-busyness-backlog-step = 2    ; How many emergency workers to create if there are too many requests
 
 immutable: false

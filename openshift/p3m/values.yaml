@@ -30,8 +30,29 @@ serviceAccount:
   # If not set and create is true, a name is generated using the fullname template
   name: ""
 
+config:
+  debug: true
+  loadFixtures: true
+  allowedHosts: []
+  uwsgi:
+    numProcesses: 1
+    numThreads: 4
+  cors:
+    allowAllOrigins: true
+    whitelist: []
+  static:
+    localPath: /srv/p3m/statics
+    url: /assets/
+  db: 
+    host: ""
+    port: 5432
+    name: ""
+    user: ""
+    password: ""
+  secretKey: 't)ka1668p*5@ftxgkpcf9l11j3%$mar%fc3@ah7_2*0=afn05@'
+
 pvc:
-  keep: true
+  keep: false
   # volumeName: 
   storage: 
     className: ""
@@ -64,6 +85,7 @@ frontend:
     # runAsUser: 1000
 
   service:
+    type: ClusterIP
     port: 8080
 
   resources: 
@@ -88,17 +110,6 @@ frontend:
   affinity: {}
 
 backend:
-  config:
-    debug: false
-    apiUrl: /api
-    allowedHosts: 
-      - *defaultHost
-    corsOriginWhitelist: 
-      - https://opendata.sgb.gov.br
-      - http://p3m.sgb-p3m-homolog.apps.ocp.sgb.local
-    databaseURL: postgis://p3m:p3m@p3m-postgresql.sgb-p3m-homolog.svc.cluster.local:5432/p3m
-    secretKey: 't)ka1668p*5@ftxgkpcf9l11j3%$mar%fc3@ah7_2*0=afn05@'
-
   replicaCount: 1
 
   image:
@@ -121,6 +132,13 @@ backend:
     # readOnlyRootFilesystem: true
     # runAsNonRoot: true
     # runAsUser: 1000
+  
+  service:
+    type: ClusterIP
+    wsgi:      
+      port: 8000
+    stats:
+      port: 9191
 
   resources:
     limits:
@@ -143,12 +161,7 @@ backend:
 
   affinity: {}
 
-# nginx:
-#   overrides: 
-#     default: 
-#       name: p3m-nginx-conf
-#       enabled: true
-
+# Dependencies
 geoserver:
   enabled: true
   config:
@@ -161,12 +174,13 @@ geoserver:
         - *defaultHost
     proxyBaseURL: 'http://p3m.sgb-p3m-homolog.apps.ocp.sgb.local/geoserver'
   image:
-    tag: 2.24.4-java11
+    tag: 2.27.3-java11
   imagePullPolicy: IfNotPresent
 
 postgresql: 
   enabled: true
   image:
+    repository: bitnamilegacy/postgresql
     tag: 14.11.0
   auth:
     username: "p3m"

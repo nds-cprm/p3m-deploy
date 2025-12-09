@@ -1,0 +1,22 @@
+{{- $fullName := include "p3m.fullname" . -}}
+{{- $host := first .Values.ingress.hosts }}
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ $fullName }}-env
+data:
+  {{- with .Values.config }}
+  DEBUG: {{ .debug | toString | upper | quote }}
+  DEFAULT_API_URL: /api
+  ALLOWED_HOSTS: {{ printf "%s,%s-frontend-svc,%s-backend-svc,%s" $host.host $fullName $fullName (join "," .allowedHosts) | trimSuffix ","}} 
+  STATIC_ROOT: {{ .static.localPath }}
+  STATIC_URL: {{ .static.url }}
+  CORS_ALLOW_ALL_ORIGINS: {{ .cors.allowAllOrigins | toString | upper | quote }}
+  {{- if not .cors.allowAllOrigins }}
+  CORS_ORIGIN_WHITELIST: {{ printf "https://%s,http://%s,%s" $host.host $host.host (join "," .corsOriginWhitelist) | trimSuffix "," }}
+  {{- end }}  
+  {{- end }}
+  SECRET_KEY_FILE: /run/secrets/p3m/p3m-secret-key
+  DATABASE_URL_FILE: /run/secrets/p3m/p3m-database-url
+  LOAD_FIXTURES: 'false'
+

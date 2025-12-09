@@ -1,3 +1,4 @@
+{{- $image := printf "%s:%s" .Values.backend.image.repository (.Values.backend.image.tag | default .Chart.AppVersion) -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -39,38 +40,61 @@ spec:
             secretName: {{ include "p3m.fullname" . }}-secret
         - name: uwsgi-conf
           configMap:
-            name: {{ include "p3m.fullname" . }}-uwsgi
+            name: {{ include "p3m.fullname" . }}-uwsgi      
+      initContainers:
+        - name: check-if-db-is-ready
+          image: "{{ $image }}"
+          command: 
+            - /usr/src/app/venv/bin/python
+          args:
+            - manage.py
+            - check
+          volumeMounts:
+            - name: p3m-statics
+              mountPath: {{ .Values.config.static.localPath }}
+            - name: p3m-secrets
+              mountPath: /run/secrets/p3m
+          envFrom:
+            - configMapRef:
+                name: {{ include "p3m.fullname" . }}-env
+        {{- if .Values.config.loadFixtures }}
+        - name: load-fixtures
+          image: "{{ $image }}"
+          args:
+            - echo
+            - "ok"
+          volumeMounts:
+            - name: p3m-statics
+              mountPath: {{ .Values.config.static.localPath }}
+            - name: p3m-secrets
+              mountPath: /run/secrets/p3m
+          envFrom:
+            - configMapRef:
+                name: {{ include "p3m.fullname" . }}-env
+          env:
+            - name: LOAD_FIXTURES
+              value: 'true'
+        {{- end }}
       containers:
         - name: {{ .Chart.Name }}-backend
           securityContext:
             {{- toYaml .Values.backend.securityContext | nindent 12 }}
-          image: "{{ .Values.backend.image.repository }}:{{ .Values.backend.image.tag | default .Chart.AppVersion }}"
+          image: "{{ $image }}"
           imagePullPolicy: {{ .Values.backend.image.pullPolicy }}
           ports:
-            - name: http
-              containerPort: 8000
+            - name: wsgi
+              containerPort: {{ .Values.backend.service.wsgi.port }}
+              protocol: TCP
+            - name: stats
+              containerPort: {{ .Values.backend.service.stats.port }}
               protocol: TCP
           args: ["uwsgi", "--ini", "/var/run/p3m/uwsgi.ini"]
-          env:
-            {{- $fullName := include "p3m.fullname" . -}}
-            {{- $host := first .Values.ingress.hosts }}
-            {{- with .Values.backend.config }}            
-            - name: DEBUG
-              value: {{ .debug | toString | upper | quote }}
-            - name: DEFAULT_API_URL
-              value: {{ .apiUrl }}
-            - name: ALLOWED_HOSTS
-              value: {{ $host.host }},{{ $fullName }}-frontend-svc,{{ $fullName }}-backend-svc,{{ join "," .allowedHosts  }}
-            - name: CORS_ORIGIN_WHITELIST
-              value: {{ join "," .corsOriginWhitelist  }}
-            {{- end }}
-            - name: SECRET_KEY_FILE
-              value: /run/secrets/p3m/p3m-secret-key
-            - name: DATABASE_URL_FILE
-              value: /run/secrets/p3m/p3m-database-url
+          envFrom:
+            - configMapRef:
+                name: {{ include "p3m.fullname" . }}-env
           volumeMounts:
             - name: p3m-statics
-              mountPath: /usr/src/app/staticfiles
+              mountPath: {{ .Values.config.static.localPath }}
             - name: p3m-secrets
               mountPath: /run/secrets/p3m
               readOnly: true
@@ -78,7 +102,7 @@ spec:
               mountPath: /var/run/p3m
           livenessProbe:
             tcpSocket:
-              port: http
+              port: uwsgi
             initialDelaySeconds: 60
             periodSeconds: 60
             timeoutSeconds: 5

@@ -5,27 +5,14 @@ kind: ConfigMap
 metadata:
   name: {{ include "p3m.fullname" . }}-nginx
 data:
-#   p3m-beta-redirect.conf: |-
-#     server {
-#         listen 8080;
-#         server_name p3m-beta.cprm.gov.br p3m-beta.sgb.gov.br;
-#         rewrite ^/(.*)$ {{ $host.host }}/$1 permanent;
-#     }
-
   default.conf: |-
     upstream p3m {
-        server {{ include "p3m.fullname" . }}-backend-svc:8000;
+        server {{ $fullName }}-backend-svc:{{ .Values.backend.service.wsgi.port }};
     }
 
     server {
-        listen 8080 default_server;        
+        listen {{ .Values.frontend.service.port }} default_server;        
         server_name {{ $host.host }} {{ $fullName }}-frontend-svc localhost;
-
-        location / {
-            root   /usr/share/nginx/html;
-            index  index.html index.htm;
-            try_files $uri $uri/ =404;
-        }
 
         error_page   500 502 503 504  /50x.html;
 
@@ -34,19 +21,23 @@ data:
         }
 
         location /api {
-            uwsgi_param SCRIPT_NAME /api;
             include     uwsgi_params;
             uwsgi_pass  p3m;
         }
 
         location /admin {
-            uwsgi_param SCRIPT_NAME /admin;
             include     uwsgi_params;
             uwsgi_pass  p3m;
         }
 
-        location /assets {
-            alias /srv/staticfiles;
+        location {{ .Values.config.static.url | trimSuffix "/"}} {
+            alias {{ .Values.config.static.localPath }};
+        }
+
+        location / {
+            root   /usr/share/nginx/html;
+            index  index.html index.htm;
+            try_files $uri $uri/ =404;
         }
     }
 

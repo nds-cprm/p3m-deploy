@@ -1,3 +1,5 @@
+{{- $image := printf "%s:%s" .Values.frontend.image.repository (.Values.frontend.image.tag | default .Chart.AppVersion) -}}
+{{- $backendHC := printf "http://%s-backend-svc:%s/healthz" (include "p3m.fullname" .) (.Values.backend.service.stats.port | toString) -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
@@ -37,21 +39,29 @@ spec:
         - name: p3m-statics
           persistentVolumeClaim:
             claimName: {{ include "p3m.fullname" . }}-statics
+      initContainers:
+        - name: check-if-backend-is-ok
+          image: "{{ $image }}"
+          command:
+            - curl
+          args:
+            - "-IL"
+            - {{ $backendHC }}
       containers:
         - name: {{ .Chart.Name }}-frontend
           securityContext:
             {{- toYaml .Values.frontend.securityContext | nindent 12 }}
-          image: "{{ .Values.frontend.image.repository }}:{{ .Values.frontend.image.tag | default .Chart.AppVersion }}"
+          image: "{{ $image }}"
           imagePullPolicy: {{ .Values.frontend.image.pullPolicy }}
           ports:
             - name: http
-              containerPort: 8080
+              containerPort: {{ .Values.frontend.service.port }}
               protocol: TCP
           volumeMounts:
             - name: default-conf
               mountPath: /etc/nginx/conf.d
             - name: p3m-statics
-              mountPath: /srv/staticfiles
+              mountPath: {{ .Values.config.static.localPath }}
               readOnly: true
           livenessProbe:
             httpGet:
