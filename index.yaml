@@ -3,6 +3,29 @@ entries:
   p3m:
   - apiVersion: v2
     appVersion: 2.4.3
+    created: "2026-02-13T22:16:00.460361186Z"
+    dependencies:
+    - condition: geoserver.enabled
+      name: geoserver
+      repository: https://nds-cprm.github.io/helm-charts
+      version: 0.5.7
+    - condition: memcached.enabled
+      name: memcached
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.2.3
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 18.3.0
+    description: A Helm chart for Kubernetes
+    digest: eec6bb9edb81ca33eab9bbe0ab63ccfb82f2828cee5dfbda8630e5575b7c8756
+    name: p3m
+    type: application
+    urls:
+    - https://github.com/nds-cprm/p3m-deploy/releases/download/p3m-0.2.1/p3m-0.2.1.tgz
+    version: 0.2.1
+  - apiVersion: v2
+    appVersion: 2.4.3
     created: "2026-02-13T21:17:20.302811848Z"
     dependencies:
     - condition: geoserver.enabled
@@ -43,4 +66,4 @@ entries:
     urls:
     - https://github.com/nds-cprm/p3m-deploy/releases/download/p3m-0.1.0/p3m-0.1.0.tgz
     version: 0.1.0
-generated: "2026-02-13T21:17:20.302825724Z"
+generated: "2026-02-13T22:16:00.460378097Z"
