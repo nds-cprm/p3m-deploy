@@ -27,8 +27,8 @@ vm/docker/geoserver/data/temp
 # uploads
 vm/docker/geoserver/data/uploads
 # Helm Chart
-openshift/p3m/charts/
-openshift/p3m/draft/
-openshift/p3m/values.*.yaml
-openshift/p3m/Chart.lock
-openshift/p3m/manifest.yaml
+helm/charts/p3m/charts/
+helm/charts/p3m/draft/
+helm/charts/p3m/values.*.yaml
+helm/charts/p3m/Chart.lock
+helm/charts/p3m/manifest.yaml
