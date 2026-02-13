@@ -1,5 +1,5 @@
 {{- $image := printf "%s:%s" .Values.frontend.image.repository (.Values.frontend.image.tag | default .Chart.AppVersion) -}}
-{{- $backendHC := printf "http://%s-backend-svc:%s/healthz" (include "p3m.fullname" .) (.Values.backend.service.stats.port | toString) -}}
+{{- $backendHC := printf "http://%s-backend:%s/healthz" (include "p3m.fullname" .) (.Values.backend.service.stats.port | toString) -}}
 apiVersion: apps/v1
 kind: Deployment
 metadata:
