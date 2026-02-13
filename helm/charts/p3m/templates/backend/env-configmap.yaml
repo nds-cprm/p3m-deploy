@@ -11,7 +11,7 @@ data:
   {{- with .Values.config }}
   DEBUG: {{ .debug | toString | upper | quote }}
   DEFAULT_API_URL: /api
-  ALLOWED_HOSTS: {{ printf "%s,%s-frontend-svc,%s-backend-svc,%s" $host.host $fullName $fullName (join "," .allowedHosts) | trimSuffix ","}} 
+  ALLOWED_HOSTS: {{ printf "%s,%s-frontend,%s-backend,%s" $host.host $fullName $fullName (join "," .allowedHosts) | trimSuffix ","}} 
   STATIC_ROOT: {{ .static.localPath }}
   STATIC_URL: {{ .static.url }}
   CORS_ALLOW_ALL_ORIGINS: {{ .cors.allowAllOrigins | toString | upper | quote }}
@@ -27,5 +27,5 @@ data:
   CACHE_BACKEND: {{ .cache.backend }}
   {{- end }}
   {{- end }}
-  LOAD_FIXTURES: {{ .loadFixtures | toString | upper | quote }}
+  LOAD_FIXTURES: "FALSE"
   {{- end }}

@@ -7,12 +7,12 @@ metadata:
 data:
   default.conf: |-
     upstream p3m {
-        server {{ $fullName }}-backend-svc:{{ .Values.backend.service.wsgi.port }};
+        server {{ $fullName }}-backend:{{ .Values.backend.service.wsgi.port }};
     }
 
     server {
         listen {{ .Values.frontend.service.port }} default_server;        
-        server_name {{ $host.host }} {{ $fullName }}-frontend-svc localhost;
+        server_name {{ $host.host }} {{ $fullName }}-frontend localhost;
 
         error_page   500 502 503 504  /50x.html;
 

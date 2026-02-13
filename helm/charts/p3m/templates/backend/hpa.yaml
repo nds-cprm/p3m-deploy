@@ -2,7 +2,7 @@
 apiVersion: autoscaling/v2
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{ include "p3m.fullname" . }}-backend-hpa
+  name: {{ include "p3m.fullname" . }}-backend
   labels:
     {{- include "p3m.labels" . | nindent 4 }}
     app.kubernetes.io/component: backend
