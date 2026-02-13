@@ -75,6 +75,10 @@ spec:
             - name: LOAD_FIXTURES
               value: 'true'
         {{- end }}
+      {{- with .Values.backend.extraHosts }}
+      hostAliases:
+        {{- toYaml . | nindent 8 }}
+      {{- end }}
       containers:
         - name: {{ .Chart.Name }}-backend
           securityContext:
