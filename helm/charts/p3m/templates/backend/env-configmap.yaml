@@ -1,5 +1,8 @@
 {{- $fullName := include "p3m.fullname" . -}}
 {{- $host := first .Values.ingress.hosts }}
+{{- $memcachedHost := include "common.names.fullname" .Subcharts.memcached -}}
+{{- $memcachedPort := .Values.memcached.service.ports.memcached | toString -}}
+{{- $memcachedLocation := printf "%s:%s" $memcachedHost $memcachedPort -}}
 apiVersion: v1
 kind: ConfigMap
 metadata:
@@ -14,9 +17,15 @@ data:
   CORS_ALLOW_ALL_ORIGINS: {{ .cors.allowAllOrigins | toString | upper | quote }}
   {{- if not .cors.allowAllOrigins }}
   CORS_ORIGIN_WHITELIST: {{ printf "https://%s,http://%s,%s" $host.host $host.host (join "," .corsOriginWhitelist) | trimSuffix "," }}
-  {{- end }}  
   {{- end }}
   SECRET_KEY_FILE: /run/secrets/p3m/p3m-secret-key
   DATABASE_URL_FILE: /run/secrets/p3m/p3m-database-url
-  LOAD_FIXTURES: 'false'
-
+  CACHE_ENABLED: {{ .cache.enabled | toString | upper | quote }}
+  {{- if .cache.enabled }}
+  CACHE_LOCATION: {{ default $memcachedLocation .cache.location }}
+  {{- if .cache.backend }}
+  CACHE_BACKEND: {{ .cache.backend }}
+  {{- end }}
+  {{- end }}
+  LOAD_FIXTURES: {{ .loadFixtures | toString | upper | quote }}
+  {{- end }}

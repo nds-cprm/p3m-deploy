@@ -34,6 +34,10 @@ config:
   debug: true
   loadFixtures: true
   allowedHosts: []
+  cache:
+    enabled: true
+    location: ''
+    backend: ''
   uwsgi:
     numProcesses: 1
     numThreads: 4
@@ -88,10 +92,10 @@ frontend:
     type: ClusterIP
     port: 8080
 
-  resources: 
-    limits:
-      cpu: 100m
-      memory: 128Mi
+  resources: {}
+    # limits:
+    #   cpu: 100m
+    #   memory: 128Mi
     # requests:
     #   cpu: 100m
     #   memory: 128Mi
@@ -140,10 +144,10 @@ backend:
     stats:
       port: 9191
 
-  resources:
-    limits:
-      cpu: 200m
-      memory: 256Mi
+  resources: {}
+    # limits:
+    #   cpu: 200m
+    #   memory: 256Mi
     # requests:
     #   cpu: 100m
     #   memory: 128Mi
@@ -193,3 +197,11 @@ postgresql:
   #     log_directory = 'logs'                  # directory where log files are written,
   #     log_filename = 'postgresql-%Y-%m-%d_%H%M%S.log'        # log file name pattern,
   #     log_file_mode = 0660 
+
+memcached: 
+  enabled: true
+  image:
+    repository: bitnamilegacy/memcached
+  service:
+    ports:
+      memcached: 11211
