@@ -54,7 +54,15 @@ config:
     user: ""
     password: ""
   secretKey: 't)ka1668p*5@ftxgkpcf9l11j3%$mar%fc3@ah7_2*0=afn05@'
-
+  auth:
+    google:
+      enabled: true
+      client_id: ""
+      secret: ""
+    govbr:
+      enabled: true
+      client_id: ""
+      secret: ""
 pvc:
   keep: false
   # volumeName: 

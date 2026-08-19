@@ -28,4 +28,5 @@ data:
   {{- end }}
   {{- end }}
   LOAD_FIXTURES: "FALSE"
+  AUTH_FRONTEND_URL: "https://{{ $host.host }}"
   {{- end }}

@@ -41,7 +41,7 @@ spec:
             secretName: {{ include "p3m.fullname" . }}-secret
         - name: uwsgi-conf
           configMap:
-            name: {{ include "p3m.fullname" . }}-uwsgi      
+            name: {{ include "p3m.fullname" . }}-uwsgi
       initContainers:
         - name: check-if-db-is-ready
           image: "{{ $image }}"
@@ -97,6 +97,14 @@ spec:
           envFrom:
             - configMapRef:
                 name: {{ include "p3m.fullname" . }}-env
+            {{- if .Values.config.auth.govbr.enabled }}
+            - secretRef:
+                name: {{ include "p3m.fullname" . }}-auth-govbr
+            {{- end }}
+            {{- if .Values.config.auth.google.enabled }}
+            - secretRef:
+                name: {{ include "p3m.fullname" . }}-auth-google
+            {{- end }}
           volumeMounts:
             - name: p3m-statics
               mountPath: {{ .Values.config.static.localPath }}
